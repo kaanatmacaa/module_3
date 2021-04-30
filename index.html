@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Twitter Bootstrap Challenge</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+
+<header class="basic_texts">
+
+	<div class="visible-md visible-lg">  
+		<div class="container-fluid ">
+		<nav id="header-nav" class="navbar navbar-default">
+	    
+	      	<div class="navbar-header visible-md-12 visible-lg-12">
+	      	<a class="navbar-brand" href="#" style="font-size: 30px">Food, LLC</a>
+			</div>
+	      
+	    </nav>
+	 	<div>   
+	 		<h1 class="header_texts" style="font-size: 50px">Our Menu</h1>
+	 		<div class="container contain_edits">
+	 			<h2>Chicken</h2>
+	 			<p>Creamy Chicken Orzo. Kinda like risotto, but orzo—creamy, carby, chicken-y, this creamy chicken orzo is a cold weather day-saver.</p>
+	 		</div>
+	 		<div class="container contain_edits">
+	 			<h2>Beef</h2>
+	 			<p>Fulfill your burger cravings with these tasty classic beef burgers.</p>
+	 		</div>
+	 		<div class="container contain_edits">
+	 			<h2>Sushi</h2>
+	 			<p>Dish of pressed vinegared rice with a piece of raw fish or shellfish, called a neta, on top.</p>
+	 		</div>
+	 	</div>
+    </div>
+	</div>
+
+
+   <div class="visible-sm ">
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+  	<div class="navbar">
+  	<a class="navbar-brand" href="#" style="font-size: 30px">Food, LLC</a>
+     <button type="button" data-toggle="collapse" data-target="#myModal" style="float: right; margin-top: 12px">
+     	<div class="float-right">
+	  		<div class="div_icon"></div>
+			<div class="div_icon"></div>
+			<div class="div_icon"></div>
+     	</div>
+   
+      </button>
+  	</div>
+
+
+
+     <div class="collapse" id="myModal">
+      <li  class="navbar nav">
+      	<h1 class="header_texts">Our Menu</h1>
+      	<li class="navbar nav">      
+            	<div class="container contain_edits_xs">
+            		<h2>Chicken</h2>
+        			<p>Creamy Chicken Orzo. Kinda like risotto, but orzo—creamy, carby, chicken-y, this creamy chicken orzo is a cold weather day-saver.</p>
+        		</div>
+           
+        </li>
+
+        <li class="navbar nav">
+            	<div class="container contain_edits_xs">
+           			<h2>Beef</h2>
+            	<p >Fulfill your burger cravings with these tasty classic beef burgers.</p>
+            	</div>
+        </li>
+
+        <li class="navbar nav">
+            	<div class="container contain_edits_xs">
+            		<h2>Sushi</h2>
+            	<p>Dish of pressed vinegared rice with a piece of raw fish or shellfish, called a neta, on top.</p>
+           	 </div>
+        </li>
+      </li>
+    	
+    </div>
+  </div>
+</nav>
+   </div>
+
+	
+
+   <div class="visible-xs">
+   	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="font-size: 30px">Food, LLC</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav">
+		            <li class="active">
+	                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="text-align: center;">Chicken</a>
+	                    <div class="dropdown-menu">
+	                    	<h2 class="basic_texts" style="text-align: center;">Our Menu</h2>
+	                    	<div class="container contain_edits_xs">
+	                    		<h3>Chicken</h3>
+                    			<p style="font-size: 20px;">Creamy Chicken Orzo. Kinda like risotto, but orzo—creamy, carby, chicken-y, this creamy chicken orzo is a cold weather day-saver.</p>
+                    		</div>
+	                    </div>
+	                </li>
+
+	                <li class="nav-item dropdown">
+	                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="text-align: center;">Beef</a>
+	                    <div class="dropdown-menu">
+	                    	<h2 class="basic_texts" style="text-align: center;">Our Menu</h2>
+	                    	<div class="container contain_edits_xs">
+	                    		<h3>Beef</h3>
+	                    	<p style="font-size: 20px;">Fulfill your burger cravings with these tasty classic beef burgers.</p>
+	                    	</div>
+	                	</div>
+	                </li>
+
+	                <li class="nav-item dropdown">
+	                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="text-align: center;">Sushi</a>
+	                    <div class="dropdown-menu">
+	                    	<h2 class="basic_texts" style="text-align: center;">Our Menu</h2>
+	                    	<div class="container contain_edits_xs">
+	                    		<h3>Sushi</h3>
+	                    	<p style="font-size: 20px;">Dish of pressed vinegared rice with a piece of raw fish or shellfish, called a neta, on top.</p>
+	                    </div>
+	                    </div>
+	                </li>
+	            	</ul>
+			    </div>
+			  </div>
+			</nav>
+   </div>
+
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
